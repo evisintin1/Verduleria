@@ -1,0 +1,22 @@
+{
+  "name": "verduleria",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/evisintin1/Verduleria.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/evisintin1/Verduleria/issues"
+  },
+  "homepage": "https://github.com/evisintin1/Verduleria#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
