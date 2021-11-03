@@ -13,3 +13,6 @@ app.listen(port,()=>{
 app.get('/puerto', function(req, res)  {
     res.send('Servidor corriendo en el puerto:' + port)
   });
+app.post('/verdura',function(req,res){
+    console.log(req.post("verduras"))
+})
