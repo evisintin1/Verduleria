@@ -10,9 +10,18 @@ app.listen(port,()=>{
     console.log("Servidor corriendo")
 })
 
-app.get('/puerto', function(req, res)  {
+app.get('/puerto', (req, res) => {
     res.send('Servidor corriendo en el puerto:' + port)
   });
-app.post('/verdura',function(req,res){
-    console.log(req.post("verduras"))
+
+
+app.post('/verdura',(req,res)=>{
+    let suma=0;
+    for (var i in req.body) {
+        if(req.body[i].tipo=='Verdura'){
+            suma+req.body[i].precio
+        }
+        
+    }
+
 })
