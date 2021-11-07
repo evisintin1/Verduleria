@@ -1,6 +1,4 @@
-const http = require('http')
 const express = require('express');
-const { Console } = require('console');
 const app = express();
 
 const hostname = '127.0.0.1';
